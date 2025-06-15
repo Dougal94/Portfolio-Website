@@ -1,0 +1,91 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+    max-width: 1600px auto;
+    width: auto;
+}
+.banner h3 {
+    display: inline-block;
+    padding: 0px 30px;
+    text-decoration: underline;
+}
+
+/* Homepage icon formatting */
+
+.icons {
+    height: 700px;
+}
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.icon-container img {
+    display: inline-block;
+    width: 80%;
+    height: 80%;
+    object-fit:fill;
+    background-color: white;
+}
+
+/* Projects formatting*/
+
+.project {
+    display: grid;
+    grid-template-columns: 1000px;
+    grid-template-rows: 50px 50px 100px 75%;
+    height: auto;
+    width: auto;
+    justify-items: center;
+    align-items:start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.project h3 {
+    margin: 0;
+    padding: 0;
+}
+.project p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.project ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    list-style-type: none;
+    justify-items: center;
+    align-items: start;
+    text-align: center;
+}
+.project h4 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.project img {
+    height: 100%;
+    width: 1000px;
+    object-fit: contain;
+}
+#password-gen {
+    height: auto;
+    grid-template-rows: 50px 80px 100px 75%;
+}
+#password-gen li {
+    grid-column: 1/3;
+}
+#password-gen img {
+    height: 100%;
+    width: 1000px;
+}
